@@ -1,9 +1,9 @@
 public class Rectangle {
     public static void main(String[] args){
-        int a = 10;
+        int l = 10;
         int b = 30;
-        int area = a*b;
-        int perimeter = a+b;
+        int area = l*b;
+        int perimeter = 2 * (l + b);
         System.out.println("Area of Rectangle: " + area);
         System.out.println("Perimeter of Rectangle: " + perimeter);
     }

@@ -5,8 +5,8 @@ public class basicCalculator{
      int sum = a+b;
      int diff = a-b;
      int prod = a*b;
-     float quo = a/b;
-     float rem = a%b;
+     double quo = (double)a/b;
+     double rem = (double)a%b;
      System.out.println("Sum: " + sum);
      System.out.println("Diff: " + diff);
      System.out.println("Prod: " + prod);

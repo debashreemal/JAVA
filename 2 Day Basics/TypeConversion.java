@@ -20,5 +20,6 @@ class TypeConversion {
         double num = 9999.5;
         byte num1 = (byte)num; 
         System.out.println("Num is: " + num1);  
+        //double 9999.5 -> int 9999( 16 bits) -> byte ( 8 bit)  0000 1111 => 15
     }
 }

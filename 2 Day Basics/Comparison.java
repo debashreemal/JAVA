@@ -15,5 +15,8 @@ public class Comparison {
         System.out.println(smaller);
         System.out.println(greaterequal);
         System.out.println(smallerequal);
+
+        System.out.println("smallerequal = " + (a<=b));
+        System.out.println("smaller = " + (a<b));
     }
 }
