@@ -13,7 +13,7 @@ public class countVowelConst {
             if( c == 'a'|| c == 'e'|| c == 'i'|| c == 'o'|| c == 'u') {
                 vowel++;
             }
-            else{
+            else if(Character.isLetter(c)){ //charcter. is buildin method t check if the characters
                 consonant++;
             }
         } 

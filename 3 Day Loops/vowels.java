@@ -7,7 +7,7 @@ public class vowels {
             char c = alpha.charAt(i);
 
             if(c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U'){
-                System.out.println("Vowels : " + alpha.charAt(i));
+                System.out.println("Vowels : " + c);
             }
         }
     }

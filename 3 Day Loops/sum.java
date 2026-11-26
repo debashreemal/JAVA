@@ -1,10 +1,12 @@
 public class sum {
     public static void main(String[] args) {
-        int s = 0;
+        int sum = 0;
         int N = 2;
+
         for(int i=1; i<=N; i++ ){
-            s += i;
+            sum += i;
         }
-        System.out.println("Sum of " + N + " numbers = " + s );
+
+        System.out.println("Sum of " + N + " numbers = " + sum);
     }
 }
