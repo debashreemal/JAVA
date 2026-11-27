@@ -1,5 +1,6 @@
 public class Rectangleoverload {
     public static void main(String[] args){
+        
         rectangle r1 = new rectangle();
         rectangle r2 = new rectangle(3);
         System.out.println("Area of rectangle1: " + r1.area());
@@ -17,13 +18,17 @@ class rectangle{
     int b;
 
     rectangle(){
-        l = 1;
-        b = 1;
+        // l = 1;
+        // b = 1;
+
+        this(1, 1);
     }
 
     rectangle(int s){
-        this.l = s;
-        this.b = s;
+        // this.l = s;
+        // this.b = s;
+
+        this(s, s);
     }
 
     rectangle(int l, int b){

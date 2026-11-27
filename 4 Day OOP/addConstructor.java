@@ -2,9 +2,12 @@
 public class addConstructor {
    public static void main(String[] args){
     
+    arithemtic he = new arithemtic();
     arithemtic obj = new arithemtic(10, 20); //object
     int sum = obj.add(10, 20);
     System.out.println("Addition = " + sum);
+
+    System.out.println(obj.m);
    }
 }
 
